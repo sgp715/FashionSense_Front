@@ -10,9 +10,9 @@ Hosts our NGINX reverse proxy server.
 * to run with Docker
     * first build everything with Docker
     ```
-    $ docker build -t front
+    $ docker build -t front .
     ```
     * to run with Docker
     ```
-    $ docker run -p 80:80 front .
+    $ docker run -p 80:80 front
     ```
